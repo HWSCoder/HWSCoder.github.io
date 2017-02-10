@@ -1,8 +1,9 @@
+ @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
 body {
   min-height: 100%;
   height: auto;
-  font-family: "Unica One";
-  font-size: 52px;
+  font-family: 'Quicksand', sans-serif;
   background: url(../images/bg-tile.gif);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,11 +19,19 @@ body {
  body .name {
      display:flex;
      margin:auto;
+     font-size: 52px;
      text-align:center;
      padding:0 1rem 1rem;
      position: relative;
  }
 
+body .occupation {
+    display:flex;
+    text-align:center;
+    font-size: 32px;
+    position: relative;
+    margin-left:17%;
+}
 
 @keyframes fadeIn {
     0%{
