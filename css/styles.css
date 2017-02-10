@@ -1,0 +1,43 @@
+body {
+  min-height: 100%;
+  height: auto;
+  font-family: "Unica One";
+  font-size: 52px;
+  background: url(../images/bg-tile.gif);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+ body .name {
+     display:flex;
+     margin:auto;
+     text-align:center;
+     padding:0 1rem 1rem;
+     position: relative;
+ }
+
+
+@keyframes fadeIn {
+    0%{
+        opacity:0;
+        margin-top:200px;
+        transform: scale(0.2);
+    }
+
+    100%{
+        opacity:1;
+        margin-top:0px;
+        transform:scale(1);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
